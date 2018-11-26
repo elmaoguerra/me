@@ -1,0 +1,26 @@
+.study-icon{
+    position: relative;
+    left: 22%;
+    top: 30%;
+    height: 30px;
+    width: 30px;
+}
+
+.cls-1{fill:#203442;}.cls-2{fill:#4c5665;}.cls-3{fill:#ecf0f1;}.cls-4{fill:#face53;}
+.st0{fill:white;}
+
+/* .formal, .continue{
+    color: #222;
+} */
+
+.formal .vertical-timeline-element-content {
+    border-top: 3px solid #2196f3;
+}
+
+/* .vertical-timeline-element-date{
+    color: white !important;
+} */
+
+.continue .vertical-timeline-element-content {
+    border-top: 3px solid #f38721;
+}

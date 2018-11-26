@@ -1,0 +1,33 @@
+a{
+    text-decoration: none;
+}
+
+.menu{
+    margin-top: 2em;
+}
+
+.menu-item{
+    color: rgb(19, 19, 1);    
+    font-family: 'Mukta Bold';
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.meImage{
+    border-radius: 50%;
+    box-shadow: #35394e 0px 0px 2px;
+    height: 150px;
+    margin: 2em auto;
+    width: 150px;
+}
+
+.socialImage{
+    height: 30px;
+    width: 30px;
+    margin: 0 2px;
+}
+
+.social{
+    margin: 0 auto;
+}

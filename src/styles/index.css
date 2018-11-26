@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Mukta Regular';
+    src: 
+         url('../fonts/Mukta-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Mukta-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Mukta-Regular.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Mukta Bold';
+    src: 
+         url('../fonts/Mukta-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Mukta-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Mukta-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+*{
+    font-family: 'Mukta Regular';
+}
+
+body{
+  font-size: 16px;  
+  margin: 0;
+}
+
+.bold{
+    font-family: 'Mukta Bold';
+}

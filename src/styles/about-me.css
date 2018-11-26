@@ -1,0 +1,27 @@
+.about-me-item{
+    border-bottom: rgb(123, 121, 41) 2px double;
+}
+
+.about-me-items{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.description {
+    line-height: 1.5;
+}
+
+.description-layout {
+    text-align: right;
+}
+
+.title {
+    color: #3f51b5;
+    font-size: 1.1em;
+    font-family: 'Mukta Bold';
+}
+
+.profile{
+    font-size: 1.1em;
+    line-height: 1.6;
+}
