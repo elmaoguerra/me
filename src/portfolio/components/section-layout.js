@@ -22,7 +22,7 @@ const styles = theme => ({
 
 class SectionLayout extends React.Component {
     render() {
-        const { classes, title, children, nameTheme } = this.props;
+        const { classes, title, children, nameTheme, id } = this.props;
         let name = nameTheme;
         if(name === undefined)
             name = "BlueTheme";
@@ -32,7 +32,7 @@ class SectionLayout extends React.Component {
         console.log(background);    
 
         return (
-            <section className={classes.section + "  " +  background}>
+            <section id={id} className={classes.section + "  " +  background}>
                 <h2>{title}</h2>
                 {children}
             </section>

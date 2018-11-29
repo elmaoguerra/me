@@ -29,19 +29,17 @@ class Home extends Component {
                 <HeaderLayout handleResumeOnClose={this.handleResumeOnClose}></HeaderLayout>
                 <Resume mobileOpen={this.state.mobileOpen} handleResumeOnClose={this.handleResumeOnClose}></Resume>
                 <MainLayout>
-                    <SectionLayout title={AboutMeSection.title}>
+                    <SectionLayout {...AboutMeSection}>
                         <AboutMeLayout {...AboutMeSection}></AboutMeLayout>
                     </SectionLayout>
 
-                    <SectionLayout title={StudySection.title} nameTheme="GrayTheme">
+                    <SectionLayout {...StudySection} nameTheme="GrayTheme">
                         <StudiesLayout {...StudySection}></StudiesLayout>
                     </SectionLayout>
 
-                    <SectionLayout title={SoftSkillSection.title} nameTheme="DarkTheme">
+                    <SectionLayout {...SoftSkillSection} nameTheme="DarkTheme">
                         <SkillLayout {...SoftSkillSection}></SkillLayout>
                     </SectionLayout>
-
-                    <ProgressSkill></ProgressSkill>
                 </MainLayout>
             </HomeLayout>
         )

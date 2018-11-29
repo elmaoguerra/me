@@ -9,7 +9,7 @@ const Social = props => {
         <div className="social">
             <h4>Ingeniero de Desarrollo</h4>
             <div className="logos">
-                <a href="#" target="_blank">
+                <a href="https://github.com/elmaoguerra" target="_blank">
                     <Image src={github} className="socialImage"></Image>
                 </a>
 
