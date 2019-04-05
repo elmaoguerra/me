@@ -3,8 +3,9 @@ export const AboutMeSection = {
     id: 'about-me',
     title: 'Hola soy Mauricio Guerra',
     profile: 'Colombiano de nacimiento e Ingeniero Telemático como profesional, con '
-        + 'experiencia en desarrollo de software y programación. Soy una persona que cuento con la habilidad de aprender y adaptarme a las labores a cargo; serio y responsable con las actividades que me sean encomendadas, tengo buenas relaciones interpersonales, se me facilita el trabajo en equipo.',
-    interest: "Apasionado por aprender cada día algo nuevo acerca de tecnologías disruptivas. Interesado en Blockchain, inteligencia artificial y aprendizaje de máquina para automatizar procesos y la realización de actividades más eficientes de las que hacemos los humanos.",
+        + 'experiencia en desarrollo de software más en backend que en frontend. Soy una persona que cuento con la habilidad de aprender y adaptarme fácilmente. ' 
+        + 'He desarrollado en C# con ASP.MVC, WPF y ASP.NET Core. Me gusta Python y lo utilizo para análisis de datos y machine learning en tiempo libre.',
+    interest: "Apasionado por aprender cada día algo nuevo acerca de tecnologías disruptivas. Interesado en React, Blockchain, inteligencia artificial y aprendizaje de máquina para la realización de actividades más eficientes.",
     aboutItems: [
         {
             title: 'Nombre',
@@ -12,7 +13,7 @@ export const AboutMeSection = {
         },
         {
             title: 'Edad',
-            description: (new Date().getFullYear() - 1992) + ' Años.'
+            description: calcMyAge() + ' Años.'
         },
         {
             title: 'Email',
@@ -104,15 +105,24 @@ export const SoftSkillSection = {
     id: 'skills',
     title: "Habilidades en desarrollo de Software",
     description: "En los años de experiencia he adquirido habilidades en diferentes lenguajes de programación, tecnologías, frameworks tanto en frontend como en backend.",
-    skills:[
-        {name: "Programación Web con C#:", completed: 80},
-        {name: "Programación de escritorio C#:", completed: 80},
-        {name: "Pruebas Unitarias:", completed: 70},
-        {name: "Patrones de diseño:", completed: 70},
-        {name: "Comandos y despliegue sobre Linux:", completed: 65},
-        {name: "React y React-Native:", completed: 60},
-        {name: "Angular y Ionic:", completed: 50},
-        {name: "Machine Learning con Python:", completed: 50},
+    skills: [
+        { name: "Programación web con C#:", completed: 80 },
+        { name: "Programación de escritorio C#:", completed: 80 },
+        { name: "Pruebas unitarias:", completed: 70 },
+        { name: "Patrones de diseño:", completed: 70 },
+        { name: "Comandos y despliegue sobre Linux:", completed: 65 },
+        { name: "React y React-Native:", completed: 60 },
+        { name: "Machine learning con Python:", completed: 60 },
+        { name: "Angular y Ionic:", completed: 50 },
     ]
 }
 
+function calcMyAge() {
+    const today = new Date()
+
+    let age = today.getFullYear() - 1992
+    if (today.getMonth() != 12)
+        age -= 1
+
+    return age;
+}

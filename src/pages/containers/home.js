@@ -33,13 +33,14 @@ class Home extends Component {
                         <AboutMeLayout {...AboutMeSection}></AboutMeLayout>
                     </SectionLayout>
 
+                    <SectionLayout {...SoftSkillSection} nameTheme="DarkTheme">
+                        <SkillLayout {...SoftSkillSection}></SkillLayout>
+                    </SectionLayout>
+                    
                     <SectionLayout {...StudySection} nameTheme="GrayTheme">
                         <StudiesLayout {...StudySection}></StudiesLayout>
                     </SectionLayout>
 
-                    <SectionLayout {...SoftSkillSection} nameTheme="DarkTheme">
-                        <SkillLayout {...SoftSkillSection}></SkillLayout>
-                    </SectionLayout>
                 </MainLayout>
             </HomeLayout>
         )
