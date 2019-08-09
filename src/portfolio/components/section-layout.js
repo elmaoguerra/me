@@ -13,7 +13,7 @@ const styles = theme => ({
         }
     },
 
-    BlueTheme :{ backgroundColor: '#00bcd440'},
+    BlueTheme :{ backgroundColor: '#beecfa'},
     GrayTheme :{ backgroundColor: '#d1d1d1'},
     DarkTheme :{ backgroundColor: '#222', color: "#eee"},    
 });

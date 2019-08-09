@@ -7,7 +7,6 @@ const Menu = () =>{
     return (
         <div className="menu">
             {MenuItems.map((item, i)=>{
-                console.log(item);
                 return <MenuItem key={i} {...item}></MenuItem>
             })}
         </div>
